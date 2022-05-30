@@ -4,7 +4,7 @@ This contract is an improvement to the Canonical [W-ETH](https://weth.io/) packa
 
 ## Description
 
-Canonical Wrapped Ether ([0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)) has at least two major flaws:
+Canonical Wrapped Ether ([WETH9, 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)) has at least two major flaws:
 
 - You can lock your WETH in the contract (at 2022.05.29, they are **~644 ethers** and counting)
 - You cannot recover other tokens sent to this contract
